@@ -19,7 +19,7 @@ pipeline {
             }
             stage('Deploy Production') {
                   steps {
-                        echo "Deploying in Production Area"
+                        echo "Deploying in Production Area after adding the Poll SCM in configure"
                   }
             }
       }
